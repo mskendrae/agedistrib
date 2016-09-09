@@ -24,48 +24,48 @@ If the age of the person is less than 0 or more than 100 - it might be an alien 
         {
 
             Console.WriteLine("How old are you?");
-            int userAge = int.Parse(Console.ReadLine());
+            int reader = int.Parse(Console.ReadLine());
 
-            if (userAge >= 0 && userAge <= 2)
+            if (reader >= 0 && reader <= 2)
             {
                 Console.WriteLine("Still in Mama's arms");
 
             }
-            else if (userAge == 3 && userAge == 4)
+            else if (reader == 3 && reader == 4)
             {
                 Console.WriteLine("Preschool Maniac");
             }
 
-            else if (userAge >= 5 && userAge <= 11)
+            else if (reader >= 5 && reader <= 11)
             {
 
                 Console.WriteLine("Elementary School");
             }
 
-            else if (userAge >= 12 && userAge <= 14)
+            else if (reader >= 12 && reader <= 14)
             {
 
                 Console.WriteLine("Middle School");
 
             }
-            else if (userAge >= 15 && userAge <= 18)
+            else if (reader >= 15 && reader <= 18)
             {
 
                 Console.WriteLine("High School");
             }
-            else if (userAge >= 19 && userAge <= 22)
+            else if (reader >= 19 && reader <= 22)
             {
                 Console.WriteLine("College");
             }
-            else if (userAge >= 23 && userAge <= 65)
+            else if (reader >= 23 && reader <= 65)
             {
                 Console.WriteLine("Working for the man");
             }
-            else if (userAge >= 66 && userAge <= 100)
+            else if (reader >= 66 && reader <= 100)
             {
                 Console.WriteLine("The Golden years");
             }
-            else  if (userAge < 0 && userAge >= 101)
+            else  if (reader < 0 || reader >= 101)
              {
                 Console.WriteLine("You might be an alien. This program is for humans");
             }
