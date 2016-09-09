@@ -31,18 +31,44 @@ If the age of the person is less than 0 or more than 100 - it might be an alien 
                 Console.WriteLine("Still in Mama's arms");
 
             }
-            else if (userAge ==3 && userAge ==4)
+            else if (userAge == 3 && userAge == 4)
             {
                 Console.WriteLine("Preschool Maniac");
             }
 
-            else if (userAge >=5 && userAge <= 11)
+            else if (userAge >= 5 && userAge <= 11)
             {
 
                 Console.WriteLine("Elementary School");
             }
 
+            else if (userAge >= 12 && userAge <= 14)
+            {
 
+                Console.WriteLine("Middle School");
+
+            }
+            else if (userAge >= 15 && userAge <= 18)
+            {
+
+                Console.WriteLine("High School");
+            }
+            else if (userAge >= 19 && userAge <= 22)
+            {
+                Console.WriteLine("College");
+            }
+            else if (userAge >= 23 && userAge <= 65)
+            {
+                Console.WriteLine("Working for the man");
+            }
+            else if (userAge >= 66 && userAge <= 100)
+            {
+                Console.WriteLine("The Golden years");
+            }
+            else  if (userAge < 0 && userAge >= 101)
+             {
+                Console.WriteLine("You might be an alien. This program is for humans");
+            }
         }
 
 

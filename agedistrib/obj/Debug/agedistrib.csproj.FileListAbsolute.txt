@@ -1,1 +1,6 @@
 c:\users\wecancodeit\documents\visual studio 2015\Projects\agedistrib\agedistrib\bin\Debug\agedistrib.exe.config
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\agedistrib\agedistrib\obj\Debug\agedistrib.csprojResolveAssemblyReference.cache
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\agedistrib\agedistrib\bin\Debug\agedistrib.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\agedistrib\agedistrib\bin\Debug\agedistrib.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\agedistrib\agedistrib\obj\Debug\agedistrib.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\agedistrib\agedistrib\obj\Debug\agedistrib.pdb
