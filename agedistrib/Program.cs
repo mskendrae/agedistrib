@@ -23,52 +23,52 @@ If the age of the person is less than 0 or more than 100 - it might be an alien 
         static void Main(string[] args)
         {
 
-            Console.WriteLine("How old are you?");
-            int reader = int.Parse(Console.ReadLine());
+            System.Console.WriteLine("How old are you?");
+            int line = int.Parse(Console.ReadLine());
 
-            if (reader >= 0 && reader <= 2)
+            if (line >= 0 && line <= 2)
             {
-                Console.WriteLine("Still in Mama's arms");
-
-            }
-            else if (reader == 3 && reader == 4)
-            {
-                Console.WriteLine("Preschool Maniac");
-            }
-
-            else if (reader >= 5 && reader <= 11)
-            {
-
-                Console.WriteLine("Elementary School");
-            }
-
-            else if (reader >= 12 && reader <= 14)
-            {
-
-                Console.WriteLine("Middle School");
+                System.Console.WriteLine("Still in Mama's arms");
 
             }
-            else if (reader >= 15 && reader <= 18)
+            else if (line == 3 && line == 4)
+            {
+                System.Console.WriteLine("Preschool Maniac");
+            }
+
+            else if (line >= 5 && line <= 11)
             {
 
-                Console.WriteLine("High School");
+                System.Console.WriteLine("Elementary School");
             }
-            else if (reader >= 19 && reader <= 22)
+
+            else if (line >= 12 && line <= 14)
             {
-                Console.WriteLine("College");
+
+                System.Console.WriteLine("Middle School");
+
             }
-            else if (reader >= 23 && reader <= 65)
+            else if (line >= 15 && line <= 18)
             {
-                Console.WriteLine("Working for the man");
+
+                System.Console.WriteLine("High School");
             }
-            else if (reader >= 66 && reader <= 100)
+            else if (line >= 19 && line <= 22)
             {
-                Console.WriteLine("The Golden years");
+                System.Console.WriteLine("College");
             }
-            else  if (reader < 0 || reader >= 101)
+            else if (line >= 23 && line <= 65)
+            {
+                System.Console.WriteLine("Working for the man");
+            }
+            else if (line >= 66 && line <= 100)
+            {
+                System.Console.WriteLine("The Golden years");
+            }
+            else  if (line < 0 || line >= 101)
              {
-                Console.WriteLine("You might be an alien. This program is for humans");
-            }
+                System.Console.WriteLine("You might be an alien. This program is for humans");
+             }
         }
 
 
